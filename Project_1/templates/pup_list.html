@@ -1,0 +1,14 @@
+{% extends "./Main.html" %}
+
+{% block content %}
+
+    <div class="jumbotron">
+        <h2>List of students who have registered for the course. </h2>
+        <br>
+        <ul>
+            {% for stud in students %}
+                <li>{{stud}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

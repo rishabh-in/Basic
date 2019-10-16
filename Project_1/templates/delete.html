@@ -1,0 +1,21 @@
+{% extends "./Main.html" %}
+
+{% block content %}
+
+    <div class="jumbotron">
+        <h2>Not interested??</h2>
+        <h3>No issues..</h3>
+        <h3>Fill the given form to delete your details from database.</h3>
+        <br>
+        <form method="POST">
+            {{form.hidden_tag()}}
+            {{form.id.label}} {{form.id()}}
+            {{form.submit()}}
+        </form>
+        <br>
+        <br>
+        <h5>Thankyou for visiting..</h5>
+
+    </div>
+
+{% endblock %}

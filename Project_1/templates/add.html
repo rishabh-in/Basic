@@ -1,0 +1,26 @@
+{% extends "./Main.html" %}
+
+{% block content %}
+<div class="jumbotron">
+     <h2>Hello!! Wanna register for the course??</h2>
+     <h3>Add your details to our database</h3>
+     <br>
+     <form method="post">
+            {{form.hidden_tag()}}
+            {{form.name.label}} {{form.name()}}
+            {{form.submit()}}
+     </form>
+    <br>
+    <br>
+    <h6>Sitback relax...We don't save info!!!!</h6>
+    <br>
+    <br>
+    <p>You can anytime leave the course.</p>
+    <p>Goto delete page by clicking on the link on the navigation bar and delete your
+    details from database.</p>
+</div>
+
+
+
+
+{% endblock %}
