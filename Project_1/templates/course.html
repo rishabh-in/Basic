@@ -1,0 +1,21 @@
+{% extends "./Main.html" %}
+
+{% block content %}
+
+    <div class="jumbotron">
+        <h2>Add any Course which you want to learn..</h2>
+        <br>
+        <form method="post">
+            {{form.hidden_tag()}}
+            {{form.name.label}} {{form.name()}}
+            {{form.stud_id.label}} {{form.stud_id()}}
+            {{form.submit()}}
+        </form>
+    </div>
+
+
+
+
+
+
+{% endblock %}
