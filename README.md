@@ -6,5 +6,11 @@ The webpage has three basic functionality-
   2-Display data
   3-Delete data
   
-This is all done at the backend using sqlite database.
+we have 3 views and 2 models.
+1-Student model
+2-Course model
+
+There is a relation between both the models.
+
+we can add and delete student and can also add course based on the id of the student.
 
